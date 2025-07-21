@@ -83,6 +83,6 @@ app.delete("/transactions/:id", async (req, res) => {
 
 
 // Start the server
-app.listen(5000, (req, res) => {
+app.listen("*", (req, res) => {
   console.log(`🚀 Server running at http://localhost:5000`);
 });
